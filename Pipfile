@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+consulate-fork = {editable = true,extras = ["tests"],path = "."}
+
+[packages]
+consulate-fork = {editable = true, extras = ["unixsocket"],path = "."}
+
+[pipenv]
+allow_prereleases = true
